@@ -22,7 +22,7 @@
 }
 
 .hero-image {
-  animation: image infinite 3s ease-in-out;
+  animation: image infinite 5s ease-in-out;
 }
 
 @keyframes image {
@@ -35,6 +35,6 @@
 
   50% {
     /* filter: grayscale(0); */
-    filter: hue-rotate(30deg);
+    filter: hue-rotate(60deg);
   }
 }

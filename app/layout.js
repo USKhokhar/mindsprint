@@ -1,6 +1,8 @@
+import { Suspense } from 'react'
 import Header from './Components/Header'
 import './globals.css'
 import { Lato, Orbitron, Roboto } from "next/font/google"
+import Loading from './Loading'
 
 const lato = Lato({
   subsets: ['latin'],
@@ -29,9 +31,11 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <div className='overlay'></div>
-        <main>
-          {children}
-        </main>
+        <Suspense fallback={<Loading />}>
+          <main>
+            {children}
+          </main>
+        </Suspense>
       </body>
     </html>
   )

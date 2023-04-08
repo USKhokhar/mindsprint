@@ -11,11 +11,11 @@ export default function Header(){
         <nav className="mx-auto w-1/3 hidden sm:block md:block">
             <ul className="list-none flex justify-between items-center md:gap-10 sm:gap-2" >
                 <li>
-                    <Link href={"/"}>
                         <span className={`${roboto.className} text-light uppercase space-x-4 hover:shadow-md hover:text-yellow-200 text-sm transition delay-150 duration-300 ease-in-out text-center tracking-wide`}>
+                    <Link href={"/"}>
                             Home
-                        </span>
                     </Link>
+                        </span>
                 </li>
                 <li>
                     <Link href={"/community"}>
