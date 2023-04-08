@@ -1,8 +1,12 @@
 import Header from './Components/Header'
 import './globals.css'
-import { Lato, Orbitron } from "next/font/google"
+import { Lato, Orbitron, Roboto } from "next/font/google"
 
 const lato = Lato({
+  subsets: ['latin'],
+  weight: '400',
+})
+const roboto = Roboto({
   subsets: ['latin'],
   weight: '400',
 })
@@ -12,7 +16,7 @@ const orbitron = Orbitron({
   weight: '400',
 })
 
-export {lato, orbitron}
+export {lato, orbitron, roboto}
 
 export const metadata = {
   title: 'MindSprints',
@@ -24,7 +28,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header />
-        <main className='bg-slate-500'>
+        <div className='overlay'></div>
+        <main>
           {children}
         </main>
       </body>
