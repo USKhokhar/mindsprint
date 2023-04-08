@@ -3,6 +3,8 @@ import { lato, orbitron, roboto } from "../layout";
 
 export default function Header(){
 
+
+
     const imgSrc = "/next.svg"
 
     return <header className="md:w-[80vw] md:mx-[10vw] sm:w-[90vw] sm:mx-[5vw] w-[98vw] mx-[1vw] md:px-8 md:py-4 flex justify-between items-center bg-secondary mt-7 rounded-lg shadow-[#333333_0px_6px_10px]">
@@ -11,7 +13,7 @@ export default function Header(){
         <nav className="mx-auto w-1/3 hidden sm:block md:block">
             <ul className="list-none flex justify-between items-center md:gap-10 sm:gap-2" >
                 <li>
-                        <span className={`${roboto.className} text-light uppercase space-x-4 hover:shadow-md hover:text-yellow-200 text-sm transition delay-150 duration-300 ease-in-out text-center tracking-wide`}>
+                        <span className={`${roboto.className} text-light uppercase space-x-4 hover:shadow-md hover:text-yellow-200 active:text-yellow-200 text-sm transition delay-150 duration-300 ease-in-out text-center tracking-wide`}>
                     <Link href={"/"}>
                             Home
                     </Link>
@@ -19,14 +21,14 @@ export default function Header(){
                 </li>
                 <li>
                     <Link href={"/community"}>
-                        <span className={`${roboto.className} text-light uppercase space-x-4 hover:shadow-md hover:text-yellow-200 text-sm transition delay-150 duration-300 ease-in-out text-center tracking-wide`}>
+                        <span className={`${roboto.className} text-light uppercase space-x-4 hover:shadow-md hover:text-yellow-200 active:text-yellow-200 text-sm transition delay-150 duration-300 ease-in-out text-center tracking-wide`}>
                             community
                         </span>
                     </Link>
                 </li>
                 <li>
                     <Link href={"/practice"}>
-                        <span className={`${roboto.className} text-light uppercase space-x-4 hover:shadow-md hover:text-yellow-200 text-sm transition delay-150 duration-300 ease-in-out text-center tracking-wide`}>
+                        <span className={`${roboto.className} text-light uppercase space-x-4 hover:shadow-md hover:text-yellow-200 active:text-yellow-200 text-sm transition delay-150 duration-300 ease-in-out text-center tracking-wide`}>
                             Practice
                         </span>
                     </Link>

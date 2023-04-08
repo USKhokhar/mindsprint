@@ -8,12 +8,12 @@ export default function Community(){
 
             <article className=" md:w-[70vw] sm:w-[80vw] w-[90vw] mx-auto bg-secondary bg-opacity-40 place-items-center border border-secondary rounded-sm grid md:grid-cols-2 md:grid-rows-1 grid-cols-1 grid-rows-2 md:gap-7 sm:gap-5 gap-3 p-8 ">
                 <BlockButton
-                    route={"/dev"}
+                    route={"/community/dev"}
                     title={"Dev Role"}
                 />
 
                 <BlockButton 
-                    route={"/design"}
+                    route={"/community/design"}
                     title={"Design Role"}
                 />
 

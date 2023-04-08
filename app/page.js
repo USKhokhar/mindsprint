@@ -10,7 +10,7 @@ export default function Home(){
     <div className="md:mx-0 mx-auto">
       <h1 className={`${orbitron.className} capitalize text-4xl text-light tracking-wider leading-10`}>
         welcome to the {" "} <br />
-        <span className="text-yellow-300">tech heaven 👊 </span>
+        <span className="hero-span text-yellow-300">tech heaven 👊 </span>
       </h1>
     </div>
 
