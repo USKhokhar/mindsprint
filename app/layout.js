@@ -2,7 +2,7 @@ import { Suspense } from 'react'
 import Header from './Components/Header'
 import './globals.css'
 import { Lato, Orbitron, Roboto } from "next/font/google"
-import Loading from './Loading'
+import Loading from './loading'
 
 const lato = Lato({
   subsets: ['latin'],
