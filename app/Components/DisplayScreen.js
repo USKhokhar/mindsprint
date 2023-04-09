@@ -4,7 +4,7 @@ import { lato, roboto } from "../layout";
 
 function DisplayScreen({ figma_link, post_title, post_description, author_name, author_profile_pic, upvotes}){
     //  
-    return <div className="w-[50vw] grid bg-primary border border-secondary mt-10 px-5">
+    return <div className="w-[65vw] grid bg-primary border border-secondary mt-10 px-5">
         <div className="flex justify-between items-center px-5 py-3 w-full">
             <div className="bg-slate-500 rounded-md px-2 py-1 flex items-center justify-between w-1/6">
                 <img src={author_profile_pic} alt="author_profile_pic" className="w-1/6 rounded-full aspect-square" />

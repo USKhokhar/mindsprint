@@ -9,7 +9,7 @@ export default function Page(){
         <h2 className={`${orbitron.className} text-light text-xl mt-6 tracking-wider capitalize text-center`}>your time to Be Bob the Builder!</h2>
 
         <section className="flex">
-            <article className="grid w-[50vw] py-10 cursor-pointer">
+            <article className="grid w-[40vw] py-10 cursor-pointer">
             {
                 count.map((postCard) => {
                     return <MiniPostCard 
