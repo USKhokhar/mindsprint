@@ -31,11 +31,11 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <div className='overlay'></div>
-        <Suspense fallback={<Loading />}>
           <main>
+        <Suspense fallback={<Loading />}>
             {children}
-          </main>
         </Suspense>
+          </main>
       </body>
     </html>
   )
