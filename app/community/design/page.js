@@ -26,7 +26,7 @@ export default function Page(){
 
             <article>
                 <DisplayScreen 
-                    figma_link={"https://mindsprint.vercel.app/"}
+                    figma_link={"https://dusky.vercel.app/"}
                     author_name={"Author"}
                     author_profile_pic={"https://source.unsplash.com/random"}
                     post_title={"Post title goes here."}
